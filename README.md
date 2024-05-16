@@ -9,6 +9,9 @@
 - Copy the generated command to clipboard with a simple switch.
 - Options for verbose output and complex commands separated by `&&`.
 
+![image](https://github.com/ddxfish/bashGPT/assets/6764685/32be7ca9-5bb3-475e-840d-c838d3dfc289)
+
+
 ## Installation
 
 ### Requirements
