@@ -33,6 +33,9 @@ Ensure you have Python installed. You can install the necessary Python packages 
 4. Move the bash script to a directory in your PATH:
     sudo mv bashgpt.sh /usr/local/bin/bashgpt
 
+5. Add your GPT-4 API key to the python script (or just use local)
+    nano main.py
+
 ## Usage
 
 ### Command Line Arguments
