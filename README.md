@@ -29,9 +29,9 @@ Ensure you have Python installed. You can install the necessary Python packages 
 2. Install the dependencies:  
     pip install -r requirements.txt  
 
-3. Create a bash script to call your Python script: (supposed to have your current directory)
+3. Create a bash script to call your Python script: (check the directory matches your setup)  
     echo -e '#!/bin/bash\npython '"$(pwd)"'/bashGPT.py "$@"' > bashgpt.sh  
-    chmod +x bashgpt.sh
+    chmod +x bashgpt.sh  
 
 4. Move the bash script to a directory in your PATH:  
     sudo mv bashgpt.sh /usr/local/bin/bashgpt  
