@@ -19,22 +19,22 @@ Ensure you have Python installed. You can install the necessary Python packages 
 
 ### Setting Up
 
-1. Clone the repository:
-    git clone https://github.com/ddxfish/bashGPT/
+1. Clone the repository:  
+    git clone https://github.com/ddxfish/bashGPT/  
     cd bashGPT
 
-2. Install the dependencies:
-    pip install -r requirements.txt
+2. Install the dependencies:  
+    pip install -r requirements.txt  
 
-3. Create a bash script to call your Python script:
-    echo -e '#!/bin/bash\npython /path/to/bashGPT.py "$@"' > bashgpt.sh
+3. Create a bash script to call your Python script:  
+    echo -e '#!/bin/bash\npython /path/to/bashGPT.py "$@"' > bashgpt.sh  
     chmod +x bashgpt.sh
 
-4. Move the bash script to a directory in your PATH:
-    sudo mv bashgpt.sh /usr/local/bin/bashgpt
+4. Move the bash script to a directory in your PATH:  
+    sudo mv bashgpt.sh /usr/local/bin/bashgpt  
 
-5. Add your GPT-4 API key to the python script (or just use local)
-    nano main.py
+5. Add your GPT-4 API key to the python script (or just use local)  
+    nano main.py  
 
 ## Usage
 
