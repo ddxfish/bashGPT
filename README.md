@@ -20,20 +20,17 @@ Ensure you have Python installed. You can install the necessary Python packages 
 ### Setting Up
 
 1. Clone the repository:
-    git clone https://github.com/yourusername/bashGPT.git
+    git clone https://github.com/ddxfish/bashGPT/
     cd bashGPT
 
 2. Install the dependencies:
     pip install -r requirements.txt
 
-3. Make the script executable:
-    chmod +x bashGPT.py
-
-4. Create a bash script to call your Python script:
+3. Create a bash script to call your Python script:
     echo -e '#!/bin/bash\npython /path/to/bashGPT.py "$@"' > bashgpt.sh
     chmod +x bashgpt.sh
 
-5. Move the bash script to a directory in your PATH:
+4. Move the bash script to a directory in your PATH:
     sudo mv bashgpt.sh /usr/local/bin/bashgpt
 
 ## Usage
@@ -51,7 +48,7 @@ Ensure you have Python installed. You can install the necessary Python packages 
 ### Example Usage
 
 Generate a simple bash command:  
-    bashgpt "tar the file xyz.abc"
+    bashgpt "tar the file xyz.abc" 
 
 Generate a command with multiple steps:  
     bashgpt "set up a Python virtual environment and install dependencies" -t 500 -m
